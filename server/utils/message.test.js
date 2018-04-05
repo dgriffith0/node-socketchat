@@ -1,7 +1,7 @@
 const expect = require('expect');
 const {generateMessage, generateLocationMessage} = require('./message');
 
-describe('generageMessage', () => {
+describe('generateMessage', () => {
     it('shoutld generate correct message object', () => {
         const from = ' Jen';
         const text = 'Some message';
